@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>carosuel  Example</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Simple Carousel</h2> 
+        <div id="carousel-container">
+            <div class="carousel"><img src="slider1.jpg"></div>
+            <div class="carousel"><img src="slider2.jpg"></div>
+            <div class="carousel"><img src="slider3.jpg"></div>
+            <div class="carousel"><img src="slider4.jpg"></div> 
+        
+       
+          <button class="prev" onclick="prev()">previous</button>
+          <button class="next" onclick="next()">Next</button> 
+             
+             <div id="indicators">
+                <input type="radio" class="indicator" onclick="indicates()" name="btn"  >
+                <input type="radio" class="indicator" onclick="indicates()" name="btn">
+                <input type="radio" class="indicator" onclick="indicates()" name="btn" >
+                <input type="radio" class="indicator" onclick="indicates()" name="btn" >
+            </div> 
+             </div>
+        
+        <script type="text/javascript" src="main.js"></script>
+        <script>
+            var options= {showIndicator : true, cycle : false, animation : "move",interval:2000};
+            new Carousel();
+        </script>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+           <!--  <button class="prev" onclick="rajan.prev()">previous</button>
+            <button class="next" onclick="rajan.next()">Next</button> --> 
+             <!-- <div id="indicators">
+                <input type="radio" class="indicator" onclick="rajan.indicates()" name="btn"  >
+                <input type="radio" class="indicator" onclick="rajan.indicates()" name="btn">
+                <input type="radio" class="indicator" onclick="rajan.indicates()" name="btn" >
+                <input type="radio" class="indicator" onclick="rajan.indicates()" name="btn" >
+            </div>  -->
